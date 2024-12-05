@@ -1,0 +1,44 @@
+.cart{
+    display: flex;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(140, 183, 247);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+    .cart-item{
+        justify-self: start;
+       align-items: center;
+       justify-content: flex-start;
+        display: flex;
+        gap: 10px;
+        button{
+            border: none;
+            background-color: rgb(233, 233, 57);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+
+        
+
+    }
+
+
+    
+}
+
+.removeAll{
+    border: none;
+    background-color: rgb(233, 57, 57);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.check{
+    color: rgb(252, 252, 68);
+    margin-top: 10px;
+}

@@ -1,0 +1,17 @@
+body{
+    
+
+    .freak{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+
+        img{
+            width: 500px;
+        }
+
+    }
+}

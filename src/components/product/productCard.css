@@ -1,0 +1,63 @@
+/* Basic styling for ProductList */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color:  rgba(170, 211, 255, 0.881);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  align-self: center;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 14px;
+ 
+}
+
+.product-description {
+  font-size: 14px;
+  color: #510707;
+  height: 80px;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+ 
+}
+
+.add-to-cart-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 300px;
+  align-self: center;
+  
+}
+
+.add-to-cart-btn:hover {
+  background-color: #0056b3;
+}

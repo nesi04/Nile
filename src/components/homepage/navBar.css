@@ -1,0 +1,44 @@
+.navWrapper{
+
+    padding: 10px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(45, 48, 145, 0.368);
+        border-radius: 10px;
+        margin: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+
+        .rightSide {
+            display: flex;
+            gap: 50px;
+            list-style-type: none;
+            background-color: rgba(45, 48, 145, 0);
+            color: white;  
+        }
+        .rightSide li a{
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .brandName{
+            color: white;
+            background-color: rgba(45, 48, 145, 0);
+            text-decoration: none;
+            font-size: 32px;
+            margin-left: 70px;
+            
+        }
+    }
+}

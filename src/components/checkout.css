@@ -1,0 +1,16 @@
+.contain{
+    background-color: rgb(173, 218, 255);
+    padding: 30px;
+    border-radius: 30px;
+    
+
+    button{
+        background-color: green;
+        padding: 10px;
+    }
+}
+
+h2{
+    color: white;
+    margin-left: 10px;
+}
